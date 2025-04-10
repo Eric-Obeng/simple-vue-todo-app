@@ -119,6 +119,7 @@ button:hover {
   justify-content: center;
   padding: 0;
   border-radius: 4px;
+  flex-shrink: 0;
 }
 
 .delete-btn:hover {
