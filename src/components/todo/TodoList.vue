@@ -27,7 +27,7 @@ const removeTodo = (id: number) => {
 
 <template>
   <div class="todo-container">
-    <h1>Todo List</h1>
+    <h1>My Todo List</h1>
 
     <div class="add-todo">
       <input v-model="newTodo" @keyup.enter="addTodo" placeholder="Add a new todo" type="text" />
